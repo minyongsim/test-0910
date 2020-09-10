@@ -20,11 +20,11 @@
         $('#kimcontainer').remove()
         $('#kimBox').load(url)
     })
-    $('.h1NavWrav >h1 > a').on('click',function(e){
-        e.preventDefault()
+    $('.h1Nav > h1 > a').on('click',function(e){
+        // e.preventDefault()
         var url = $(this).attr('href')
         $('#kimcontainer').remove()
-        $('.h1NavWrav >h1 > a').load(url)
+        $('#kimbox').load(url)
     })
     
 
